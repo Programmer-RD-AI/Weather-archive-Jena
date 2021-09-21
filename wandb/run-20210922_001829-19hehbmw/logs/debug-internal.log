@@ -1,0 +1,142 @@
+2021-09-22 00:18:30,710 INFO    MainThread:245715 [internal.py:wandb_internal():89] W&B internal server running at pid: 245715, started at: 2021-09-22 00:18:30.709874
+2021-09-22 00:18:30,711 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: check_version
+2021-09-22 00:18:30,711 INFO    WriterThread:245715 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/run-19hehbmw.wandb
+2021-09-22 00:18:30,713 DEBUG   SenderThread:245715 [sender.py:send():182] send: header
+2021-09-22 00:18:30,713 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: check_version
+2021-09-22 00:18:31,053 DEBUG   SenderThread:245715 [sender.py:send():182] send: run
+2021-09-22 00:18:31,054 DEBUG   SenderThread:245715 [git.py:repo():33] git repository is invalid
+2021-09-22 00:18:31,623 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: run_start
+2021-09-22 00:18:31,626 DEBUG   HandlerThread:245715 [meta.py:__init__():40] meta init
+2021-09-22 00:18:31,626 DEBUG   HandlerThread:245715 [meta.py:__init__():54] meta init done
+2021-09-22 00:18:31,626 DEBUG   HandlerThread:245715 [meta.py:probe():211] probe
+2021-09-22 00:18:31,627 INFO    SenderThread:245715 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files
+2021-09-22 00:18:31,627 INFO    SenderThread:245715 [sender.py:_start_run_threads():743] run started: 19hehbmw with start time 1632250110
+2021-09-22 00:18:31,627 DEBUG   SenderThread:245715 [sender.py:send():182] send: summary
+2021-09-22 00:18:31,627 INFO    SenderThread:245715 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-22 00:18:31,642 DEBUG   HandlerThread:245715 [git.py:repo():33] git repository is invalid
+2021-09-22 00:18:31,642 DEBUG   HandlerThread:245715 [meta.py:_save_code():90] save code
+2021-09-22 00:18:31,642 WARNING HandlerThread:245715 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-09-22 00:18:31,642 DEBUG   HandlerThread:245715 [meta.py:_save_pip():58] save pip
+2021-09-22 00:18:31,643 DEBUG   HandlerThread:245715 [meta.py:_save_pip():72] save pip done
+2021-09-22 00:18:31,643 DEBUG   HandlerThread:245715 [meta.py:_save_conda():79] save conda
+2021-09-22 00:18:32,629 INFO    Thread-9  :245715 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/conda-environment.yaml
+2021-09-22 00:18:32,629 INFO    Thread-9  :245715 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/wandb-summary.json
+2021-09-22 00:18:32,629 INFO    Thread-9  :245715 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/requirements.txt
+2021-09-22 00:18:36,632 INFO    Thread-9  :245715 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/output.log
+2021-09-22 00:18:39,249 DEBUG   HandlerThread:245715 [meta.py:_save_conda():87] save conda done
+2021-09-22 00:18:39,249 DEBUG   HandlerThread:245715 [meta.py:probe():249] probe done
+2021-09-22 00:18:39,276 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-22 00:18:39,276 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: stop_status
+2021-09-22 00:18:39,633 INFO    Thread-9  :245715 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/conda-environment.yaml
+2021-09-22 00:18:39,633 INFO    Thread-9  :245715 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/output.log
+2021-09-22 00:18:39,633 INFO    Thread-9  :245715 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/wandb-metadata.json
+2021-09-22 00:18:39,967 DEBUG   SenderThread:245715 [sender.py:send():182] send: files
+2021-09-22 00:18:39,967 INFO    SenderThread:245715 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-22 00:18:41,303 INFO    Thread-11 :245715 [upload_job.py:push():137] Uploaded file /tmp/tmp5qia2qwzwandb/9g8ah5q1-wandb-metadata.json
+2021-09-22 00:18:54,968 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-22 00:18:54,969 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: stop_status
+2021-09-22 00:18:59,899 DEBUG   SenderThread:245715 [sender.py:send():182] send: stats
+2021-09-22 00:19:10,322 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-22 00:19:10,322 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: log_artifact
+2021-09-22 00:19:10,328 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: pause
+2021-09-22 00:19:10,329 INFO    HandlerThread:245715 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-22 00:19:10,413 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-22 00:19:11,644 INFO    Thread-9  :245715 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/output.log
+2021-09-22 00:19:13,028 INFO    Thread-13 :245715 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/bc/2dab768b21b7cccef520018e683fcb
+2021-09-22 00:19:14,799 DEBUG   SenderThread:245715 [sender.py:send():182] send: stats
+2021-09-22 00:19:14,799 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: stop_status
+2021-09-22 00:19:30,268 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-22 00:19:30,268 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: stop_status
+2021-09-22 00:19:30,395 WARNING MainThread:245715 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-09-22 00:19:31,302 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 00:19:31,302 DEBUG   SenderThread:245715 [sender.py:send():182] send: telemetry
+2021-09-22 00:19:31,651 INFO    Thread-9  :245715 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/output.log
+2021-09-22 00:19:31,774 DEBUG   SenderThread:245715 [sender.py:send():182] send: exit
+2021-09-22 00:19:31,775 INFO    SenderThread:245715 [sender.py:send_exit():291] handling exit code: 0
+2021-09-22 00:19:31,775 INFO    SenderThread:245715 [sender.py:send_exit():293] handling runtime: 38
+2021-09-22 00:19:31,779 INFO    SenderThread:245715 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-22 00:19:31,779 INFO    SenderThread:245715 [sender.py:send_exit():303] send defer
+2021-09-22 00:19:31,779 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 00:19:31,780 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 00:19:31,780 INFO    HandlerThread:245715 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-22 00:19:31,780 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: defer
+2021-09-22 00:19:31,780 INFO    SenderThread:245715 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-22 00:19:31,780 INFO    SenderThread:245715 [sender.py:transition_state():316] send defer: 1
+2021-09-22 00:19:31,780 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 00:19:31,780 INFO    HandlerThread:245715 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-22 00:19:31,780 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: defer
+2021-09-22 00:19:31,780 INFO    SenderThread:245715 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-22 00:19:31,781 INFO    SenderThread:245715 [sender.py:transition_state():316] send defer: 2
+2021-09-22 00:19:31,781 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 00:19:31,781 INFO    HandlerThread:245715 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-22 00:19:31,781 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: defer
+2021-09-22 00:19:31,781 INFO    SenderThread:245715 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-22 00:19:31,781 INFO    SenderThread:245715 [sender.py:transition_state():316] send defer: 3
+2021-09-22 00:19:31,781 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 00:19:31,781 INFO    HandlerThread:245715 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-22 00:19:31,781 DEBUG   SenderThread:245715 [sender.py:send():182] send: summary
+2021-09-22 00:19:31,781 INFO    SenderThread:245715 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-22 00:19:31,781 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: defer
+2021-09-22 00:19:31,781 INFO    SenderThread:245715 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-22 00:19:31,781 INFO    SenderThread:245715 [sender.py:transition_state():316] send defer: 4
+2021-09-22 00:19:31,782 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 00:19:31,782 INFO    HandlerThread:245715 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-22 00:19:31,782 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: defer
+2021-09-22 00:19:31,782 INFO    SenderThread:245715 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-22 00:19:31,782 INFO    SenderThread:245715 [sender.py:transition_state():316] send defer: 5
+2021-09-22 00:19:31,782 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 00:19:31,782 INFO    HandlerThread:245715 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-22 00:19:31,782 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: defer
+2021-09-22 00:19:31,782 INFO    SenderThread:245715 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-09-22 00:19:31,782 INFO    SenderThread:245715 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-22 00:19:31,885 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 00:19:32,652 INFO    Thread-9  :245715 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/wandb-summary.json
+2021-09-22 00:19:32,652 INFO    SenderThread:245715 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/config.yaml
+2021-09-22 00:19:32,653 INFO    SenderThread:245715 [dir_watcher.py:finish():313] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files
+2021-09-22 00:19:32,653 INFO    SenderThread:245715 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/conda-environment.yaml conda-environment.yaml
+2021-09-22 00:19:32,653 INFO    SenderThread:245715 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/requirements.txt requirements.txt
+2021-09-22 00:19:32,653 INFO    SenderThread:245715 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/wandb-summary.json wandb-summary.json
+2021-09-22 00:19:32,653 INFO    SenderThread:245715 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/config.yaml config.yaml
+2021-09-22 00:19:32,659 INFO    SenderThread:245715 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/output.log output.log
+2021-09-22 00:19:32,670 INFO    SenderThread:245715 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/wandb-metadata.json wandb-metadata.json
+2021-09-22 00:19:32,674 INFO    SenderThread:245715 [sender.py:transition_state():316] send defer: 6
+2021-09-22 00:19:32,674 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 00:19:32,680 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 00:19:32,681 INFO    HandlerThread:245715 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-22 00:19:32,681 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: defer
+2021-09-22 00:19:32,681 INFO    SenderThread:245715 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-09-22 00:19:32,681 INFO    SenderThread:245715 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-22 00:19:32,782 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 00:19:32,782 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 00:19:32,883 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 00:19:32,884 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 00:19:33,836 INFO    Thread-18 :245715 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/output.log
+2021-09-22 00:19:33,837 INFO    Thread-17 :245715 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/config.yaml
+2021-09-22 00:19:33,861 INFO    Thread-16 :245715 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/wandb-summary.json
+2021-09-22 00:19:33,862 INFO    Thread-15 :245715 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/requirements.txt
+2021-09-22 00:19:33,874 INFO    Thread-14 :245715 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/files/conda-environment.yaml
+2021-09-22 00:19:34,074 INFO    Thread-8  :245715 [sender.py:transition_state():316] send defer: 7
+2021-09-22 00:19:34,075 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 00:19:34,075 INFO    HandlerThread:245715 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-22 00:19:34,075 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: defer
+2021-09-22 00:19:34,075 INFO    SenderThread:245715 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-09-22 00:19:34,783 INFO    SenderThread:245715 [sender.py:transition_state():316] send defer: 8
+2021-09-22 00:19:34,783 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 00:19:34,784 INFO    HandlerThread:245715 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-22 00:19:34,784 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: defer
+2021-09-22 00:19:34,784 INFO    SenderThread:245715 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-09-22 00:19:34,784 INFO    SenderThread:245715 [sender.py:transition_state():316] send defer: 9
+2021-09-22 00:19:34,784 DEBUG   SenderThread:245715 [sender.py:send():182] send: final
+2021-09-22 00:19:34,784 DEBUG   HandlerThread:245715 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 00:19:34,785 DEBUG   SenderThread:245715 [sender.py:send():182] send: footer
+2021-09-22 00:19:34,785 INFO    HandlerThread:245715 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-22 00:19:34,785 DEBUG   SenderThread:245715 [sender.py:send_request():196] send_request: defer
+2021-09-22 00:19:34,785 INFO    SenderThread:245715 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-09-22 00:19:36,400 WARNING MainThread:245715 [internal.py:is_dead():365] Internal process exiting, parent pid 245296 disappeared
+2021-09-22 00:19:36,400 ERROR   MainThread:245715 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-09-22 00:19:36,785 INFO    WriterThread:245715 [datastore.py:close():281] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Weather-archive-Jena/wandb/run-20210922_001829-19hehbmw/run-19hehbmw.wandb
+2021-09-22 00:19:36,785 INFO    SenderThread:245715 [sender.py:finish():979] shutting down sender
+2021-09-22 00:19:36,786 INFO    SenderThread:245715 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-22 00:19:36,786 INFO    SenderThread:245715 [file_pusher.py:join():182] waiting for file pusher
+2021-09-22 00:19:36,786 INFO    HandlerThread:245715 [handler.py:finish():683] shutting down handler
+2021-09-22 00:19:36,787 INFO    MainThread:245715 [internal.py:handle_exit():76] Internal process exited
